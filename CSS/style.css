@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    white,
+    palegreen,
+    yellowgreen,
+    chartreuse
+  );
+}
+
+#h1Header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 2px gold;
+  color: black;
+}
+
+#divNav {
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-size: 23px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: justify;
+  text-indent: 50px;
+  word-spacing: 5px;
+  font-weight: bold;
+}
+
+#Main {
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+table {
+  border: solid;
+  text-align: center;
+  border-spacing: 0px;
+  padding: 15px;
+  border-color: gold;
+  background-color: black;
+  color: gold;
+}
+
+tr > td {
+  border-style: double;
+  border-color: maroon;
+  background-color: gold;
+  font-size: 21px;
+  text-shadow: 1px 1px 1px black;
+  color: black;
+  border-width: 6px;
+  width: 150px;
+  height: 35px;
+}
+
+table > caption {
+  color: grey;
+}
+
+table > caption > span {
+  float: right;
+  color: black;
+  font-size: 17px;
+  margin-right: 5px;
+}
